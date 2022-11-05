@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator mini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <table class="second-table">
+        <tr>
+            <td colspan="4" class="total"><span id="iphoneTotal"></span></td>
+        </tr>   
+            
+        <tr>
+            <td><button onclick="menfi()" class="aaa">+/-</button></td>
+            <td><button onclick="resetIphone()" class="aaa">AC</button></td>
+            <td><button onclick="mod()" class="aaa">%</button></td>
+            <td><button onclick="div()" class="operator">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="sec(9)" class="number">9</button></td>
+            <td><button onclick="sec(8)" class="number">8</button></td>
+            <td><button onclick="sec(7)" class="number">7</button></td>
+            <td><button onclick="times()"  class ="operator">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="sec(6)" class="number">6</button></td>
+            <td><button onclick="sec(5)" class="number">5</button></td>
+            <td><button onclick="sec(4)" class="number">4</button></td>
+            <td><button onclick="minus()" class="operator">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="sec(3)" class="number">3</button></td>
+            <td><button onclick="sec(2)" class="number">2</button></td>
+            <td><button onclick="sec(1)" class="number">1</button></td>
+            <td><button onclick="plus()" class="operator">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="sec(0)" class="zero">0</button></td>
+            <td><button onclick="noqte()" class="decimal">,</button></td>
+            <td><button onclick="equal()" class="operator">=</button></td>
+        </tr>
+    </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
